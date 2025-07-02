@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(to right, orange, blue);
+        }
+        .card{
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+        }
+        .card-head{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card-head p{
+            margin-top: 5px;
+        }
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .card-body img {
+            width: 200px;
+            border-radius: 100px;
+            margin-bottom: 20px;
+
+        }
+        .card-footer{
+            text-decoration: none;
+            text-align: center;
+            background-color: blue;
+            margin: 20px;
+            padding: 5px;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+        .card-head h1{
+            text-decoration: none;
+            background-color: blue;
+            color: rgb(230, 97, 20);
+            background:linear-gradient(to right, blue, orange);
+            font-size: 24px;
+            margin: 20px;
+            padding: 5px;
+
+        }
+        .card-footer a {
+            text-decoration: none;
+            color: white;
+        }
+        .card-footer:hover {
+            background-color:rgb(10, 10, 130) ;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-head">
+                <h1>Biodata</h1>
+                <p>Muhammad Arifin</p>
+                <p>Pendidikan Teknologi Informasi</p>
+                <p>Angkatan 2024</p>
+            </div>
+            <div class="card-body">
+                <img src="Portofolio.png" alt="Foto Lipin">
+                <ol>
+                    <li>Main</li>
+                    <li>Tidur</li>
+                    <li>Ngoding(opsional)</li>
+                </ol>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.instagram.com/nothingbruh176/" target="_blank" >Instagram</a>  
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
